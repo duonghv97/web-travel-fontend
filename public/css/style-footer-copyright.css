@@ -1,0 +1,123 @@
+
+#footer-copyright {
+	background: url(../images/banquyen.PNG) repeat-x;
+	height: 58px;
+	
+}
+
+#footer-copyright #giua div {
+	text-align: center;
+	
+}
+#footer-copyright #message {
+	position: relative;
+	z-index: 100000;
+}
+#footer-copyright #message-margin {
+	border: 1px solid red;
+	padding: 6px 5px 6px 5px;
+	width: 250px;
+	margin-right: 15px;
+	border-radius: 3px;
+	background:#c50000;
+	margin-top: -20px;
+	float:right;
+	position: fixed;
+	z-index: 2000000;
+	bottom: 0px;
+	right: 0px;
+	cursor: pointer;
+
+}
+
+#footer-copyright #message-margin span {
+	font-size: 16px;
+	color: white;
+	margin: 15px;
+	text-align: center;
+}
+#footer-copyright #message-margin #window-maximize {
+	margin-left:60px;
+}
+#footer-copyright #message #message-form {
+	position: fixed;
+	right: 35px;
+	bottom:0px;
+	height: 420px;
+	background: white;
+	width: 350px;
+	display: none;
+}
+#footer-copyright #message #message-form #title-form-chat {
+	background-color: #c50000;
+	color: white;
+	padding: 13px;
+	font-size: 16px;
+	cursor: pointer;
+}
+#footer-copyright #message #message-form #title-form-chat #window-minus {
+	margin-left: 40px;
+}
+#footer-copyright #message #message-form #container-chat {
+	overflow: scroll;
+	width: 350px;
+	height: 380px;
+}
+#footer-copyright #message #message-form #container-chat p {
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+	margin:20px 25px 10px 25px;
+}
+#footer-copyright #message #message-form #container-chat span.red-text {
+	color: #ff0000;
+}
+#footer-copyright #message #message-form #container-chat input.inp-margin {
+	margin-left:45px;
+	padding: 9px 15px 9px 15px;
+	width: 220px;
+	border: 1px solid #696969;
+	border-radius: 3px;
+	outline: none;
+}
+#footer-copyright #message #message-form #container-chat input.inp-size {
+	padding-top:17px;
+	padding-bottom: 17px;
+}
+#footer-copyright #message #message-form #container-chat span.span-margin {
+	margin-left: 45px;
+	font-size:12px;
+	color: #686868;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	display: inline-block;
+}
+#footer-copyright #message #message-form #container-chat input.change-color {
+	background-color: #aecf5f;
+	border: 1px solid #aecf5f;
+	width: 252px;
+	margin-top: 7px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+/*back to up*/
+span.position {
+	position: fixed;
+	left:40px;
+	bottom:-60px;
+	cursor:pointer;
+	-webkit-transition: .2s ease;
+	-o-transition: .2s ease;
+	-moz-transition: .2s ease;
+	transition: .2s ease;
+}
+i.set-icon {
+	color: #7aaa00;
+}
+span.position:hover i.set-icon {
+	color:#65675f;
+	
+}

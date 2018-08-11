@@ -1,0 +1,56 @@
+#footer {
+	background: url(../images/footer.PNG) repeat-x;
+	height: 546px;
+}
+
+#footer ul {
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+#footer div.footer-margin {
+	float:left;
+	margin-left:30px;
+	margin-top: 30px;
+}
+#footer div.footer-margin span {
+	color: white;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	border-bottom: 2px solid #ccc;
+	padding: 5px 0px 5px 0px;
+	font-size: 14px;
+
+}
+#footer ul li a {
+	text-decoration: none;
+	display: block;
+	padding:2px;
+	color: white;
+}
+#footer ul li a:hover {
+	color: #d81919;
+}
+#footer ul li {
+	color: white;
+	display: block;
+	padding:2px;
+}
+#footer div.footer-margin .bottom {
+	margin-top: 25px;
+}
+#footer div.footer-margin span#line-opacity {
+	border-bottom: 1px solid grey;
+	display: block;
+	margin-left: 100px;
+	width: 146px;
+	padding: 10px;
+}
+#footer div.footer-margin img.margin-img-ft {
+	margin-left:17px;
+	margin-top:20px;
+	cursor: pointer;
+}
+#footer div.footer-margin #tmp {
+	clear: left;
+}

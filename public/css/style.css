@@ -1,0 +1,25 @@
+@import "style-header.css";
+@import "style-menu-slider.css";
+@import "style-main.css";
+@import "style-footer.css";
+@import "style-footer-copyright.css";
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+	background: url(../images/bgweb.jpg);
+	margin:0px;
+	padding: 0px;
+
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+ ul li {
+ 	list-style: none;
+ }
+
+
+
+
+

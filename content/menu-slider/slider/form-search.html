@@ -1,0 +1,156 @@
+<div id="tap">
+	<ul>
+		<li><a href="#" style="color:red;" id="search-tour">TÌM TOUR</a></li>
+		<li><a href="#" id="search-book">TRA CỨU BOOKING</a></li>
+		<li><a href="#" id="search-info">TRA CỨU THÔNG TIN</a></li>
+		
+	</ul>
+</div>
+
+<div id="clear-left"></div>
+
+<div id="container-tour">
+	<div class="change-size">
+		<span>Nơi khởi hành</span>
+		<form>
+			<select name="noikhoihanh">
+				<option value="noikhoihanh" selected>Nơi khởi hành</option>
+				<option value="hochiminh">Hồ Chí Minh</option>
+				<option value="hanoi">Hà Nội</option>
+				<option value="danang">Đà Nẵng</option>
+				<option value="cantho">Cần Thơ</option>
+				<option value="binhduong">Bình Dương</option>
+				<option value="hue">Huế</option>
+				<option value="nhatrang">Nha Trang</option>
+				<option value="dongnai">Đồng Nai</option>
+				<option value="phuquoc">Phú Quốc</option>
+				<option value="longxuyen">Long Xuyên</option>
+				<option value="quangngai">Quảng Ngãi</option>
+				<option value="vungtau">Vũng Tàu</option>
+				<option value="quangninh">Quảng Ninh</option>
+				<option value="buonmathuat">Buôn Ma Thuật</option>
+				<option value="rachgia">Rạch Giá</option>
+				<option>Vinh</option>
+			</select>
+		</form>
+	</div>
+
+	<div class="change-size">
+		<span>Nơi đến</span>
+		<form>
+			<select class="inc-padding" name="noiden">
+				<option value="noiden" selected>Nơi đến</option>
+				<option value="hochiminh">Hồ Chí Minh</option>
+				<option value="hanoi">Hà Nội</option>
+				<option value="danang">Đà Nẵng</option>
+				<option value="cantho">Cần Thơ</option>
+				<option value="binhduong">Bình Dương</option>
+				<option value="hue">Huế</option>
+				<option value="nhatrang">Nha Trang</option>
+				<option value="dongnai">Đồng Nai</option>
+				<option value="phuquoc">Phú Quốc</option>
+				<option value="longxuyen">Long Xuyên</option>
+				<option value="quangngai">Quảng Ngãi</option>
+				<option value="vungtau">Vũng Tàu</option>
+				<option value="quangninh">Quảng Ninh</option>
+				<option value="buonmathuat">Buôn Ma Thuật</option>
+				<option value="rachgia">Rạch Giá</option>
+				<option>Vinh</option>
+			</select>
+		</form>
+	</div>
+
+	<div class="change-size">
+		<span>Giá</span>
+		<form>
+			<select>
+				<option selected>Giá</option>
+				<option>Dưới 1 Triệu</option>
+				<option>1-2 Triệu</option>
+				<option>2-4 Triệu</option>
+				<option>4-6 Triệu</option>
+				<option>6-10 Triệu</option>
+				<option>Trên 10 Triệu</option>
+			</select>
+		</form>
+	</div>
+
+	<div class="change-size">
+		<span>Tình Trạng</span>
+		<form>
+			<select>
+				<option selected>Tất cả</option>
+				<option>Còn chỗ</option>
+				<option>Hết chỗ</option>
+			</select>
+		</form>
+	</div>
+
+	<div class="change-size">
+		<span>Loại tour</span>
+		<form>
+			<select>
+				<option selected>Tour trong nước</option>
+				<option>Tour nước ngoài</option>
+			</select>
+		</form>
+	</div>
+
+	<div class="change-size">
+		<span>Ngày khởi hành</span>
+		<form>
+			<input type="date" name="birthday" id="date" />
+		</form>
+	</div>
+
+	<div class="change-size">
+		<span>Dòng tour</span>
+		<form>
+			<select>
+				<option selected>Tất cả</option>
+				<option>Cao cấp</option>
+				<option>Tiêu chuẩn</option>
+				<option>Tiết kiệm</option>
+				<option>Giá sốc</option>
+			</select>
+		</form>
+	</div>
+
+	<div class="change-size">
+		<form>
+			<input type="button" name="timkiem" id="btn" value="Tìm kiếm">
+		</form>
+	</div>
+
+</div>
+
+<div id="container-book">
+	<h3>Quý khách vui lòng nhập số booking vào ô trống bên dưới và nhấn nút"Tìm kiếm" </h3>
+	<form action="/action_page.php">
+		<input class="book" type="text" name="BOOKING" placeholder="Số booking">
+	</form>
+	<button class="btn-form">Tìm kiếm</button>
+
+</div>
+
+<div id="container-info">
+	<div class="change-size-info">
+		<span>Tìm kiếm thông tin trên websiteTravel</span>
+		<br />
+		<div id="search-web">
+			<input type="text" name="" placeholder="Tour du lịch, địa điểm đến..."> 
+			<button class="btn-form">Tìm kiếm</button>
+		</div>
+	</div>
+
+	<div class="change-size-info">
+		<span>Tìm kiếm thông tin trên Google</span>
+		<br />
+		<div id="search-google">
+			<input type="text" name="" placeholder="Google Tìm kiếm tùy chỉnh">
+			<button>
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+		</div>
+	</div>
+</div>

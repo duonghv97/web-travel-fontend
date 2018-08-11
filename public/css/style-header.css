@@ -1,0 +1,27 @@
+#header {
+ 	background: url(../images/background_header.PNG) repeat-x;
+ 	height: 47px;
+ 	width: 1349px;
+ 
+ }
+
+#header ul {
+	margin-left: 1088px;
+}
+ #header ul li {
+ 	float : left;
+ 	
+ }
+ #header ul li a.account {
+ 	float: left;
+ 	padding:10px 10px 10px 20px;
+ }
+ #header ul li a.flag{
+ 	float: left;
+ 	padding:15px 0px 15px 15px;
+ }
+ #header ul li a.phone{
+ 	float: left;
+ 	margin-left: 104px;	
+ 	margin-top:-48px;
+ }

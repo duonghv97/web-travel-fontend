@@ -1,0 +1,464 @@
+#main #row-sale {
+	clear:left;
+	background: url(../images/row_sale.PNG) repeat-x;
+	height: 137px;
+}
+
+#main  h1.center {
+	color: red;
+	text-align: center;
+	padding-top:40px;
+}
+#main #row-sale h5 {
+	text-align: center;
+}
+
+#main #tour-sale {
+	background: url(../images/tour_sale.PNG) repeat-x;
+	height: 570px;
+
+}
+#main #tour-sale #tour-sale-margin {
+	height: 570px;
+	margin:0px auto;
+	margin-left:100px;
+}
+#main #tour-sale #tour-sale-margin ul li {
+	float: left;
+	
+}
+
+#main #tour-sale #tour-sale-margin ul li a {
+	float: left;
+	padding: 15px;
+	display: block;
+}
+
+img.inc-size {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	display:block;
+}
+
+figure.container-zoom-overlay {
+	width: 100%;
+	height: 100%;
+	/*overflow là ẩn đi những ảnh bị tràn khi hover*/
+	overflow: hidden; 
+	padding: 0px;
+	margin:0px;
+	position: relative;
+
+}
+a:hover img.inc-size {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+div.overlay-top {
+	position: absolute;
+	background-color:white;
+	height: 0px;
+	bottom: 100%;
+	left: 0px;
+	right:0px;
+	opacity: 0.3;
+	transition: .2s ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+}
+a:hover div.overlay-top {
+	height: 100%;
+	bottom: 0px;
+}
+
+div.container-overlay-left {
+	position: relative;
+	height: 100%;
+}
+
+div img.image-overlay-left {
+	display: block;
+	height: auto;
+	width: 100%;
+
+}
+div.container-overlay-left div.overlay-left {
+	position: absolute;
+	background: white;
+	height: 100%;
+	left:0px;
+	width: 0px;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.3;
+	transition: .5s ease-out;
+	-webkit-transition: .5s ease-out;
+
+}
+div.container-overlay-left:hover div.overlay-left {
+	width: 100%;
+}
+
+#main #content {
+	background: url(../images/tour_gio_chot.PNG) repeat-x;
+	height: 1800px;
+}
+
+
+#main #content #tour-gio-chot #tour-gio-chot-margin  {
+	margin:0px auto;
+	margin-left:100px;	
+}
+#main #content #tour-gio-chot #tour-gio-chot-margin ul li {
+	float: left;
+	
+}
+
+#main #content button.btn-watch-all {
+	background-color: #ff0000;
+	border-color: #ff0000;
+	border-radius: 3px;
+	margin: 0px auto;
+	color: white;
+	padding: 7px;
+	margin-left:650px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#main #content button.btn-watch-all:hover {
+	background-color: black;
+	border-color: black;
+}
+
+#main #content #tour-gio-chot #tour-gio-chot-margin ul li a {
+	float: left;
+	padding: 15px;
+	display: block;
+}
+div.container-overlay-center {
+	position: relative;
+	width: 100%;
+	bottom: -140px;
+	transition: 1.5s ease-out;
+	-webkit-transition: 1.5s ease-out;
+	-o-transition: 1.5s ease-out;
+	-moz-transition: 1.5s ease-out;
+}
+div img.image-tour-chot {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+div.container-overlay-center div.overlay-center {
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	margin:0px auto;
+	right:0px;
+	background: white;
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: .2s ease-in-out; 
+	transition: .2s ease-in-out;
+	
+}
+div.container-overlay-center:hover div.overlay-center {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	
+}
+
+#main #content #tour-sale-off #tour-sale-off-margin  {
+	margin:0px auto;
+	margin-left:100px;	
+}
+#main #content #tour-sale-off #tour-sale-off-margin ul li {
+	float: left;
+	padding:15px;
+	display: block;
+	margin-bottom: 40px;
+	
+}
+
+div.container-overlay-rotateY {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0px;
+	margin:0px;
+	left:0px;
+
+}
+div.container-overlay-rotateY img.image-tour-soc {
+	display: block;
+	height: auto;
+	width: 100%;
+	transform: translate(0);
+	-webkit-transform: translate(0);
+	transform-origin: left;
+	transition: .2s ease-out;
+	-webkit-transition: .2s ease-out;
+}
+div.container-overlay-rotateY:hover img.image-tour-soc {
+	transform: translate(40%);
+	-webkit-transform: translate(40%);
+}
+div.container-overlay-rotateY div.overlay-between {
+	background:#2a2a2a;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	right:0px;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	transform: rotateY(-90deg);
+	-webkit-transform: rotateY(-90deg);
+	transition: .3s ease-out;
+	-webkit-transition: .3s ease-out;
+	transform-origin: left center;
+}
+div.container-overlay-rotateY:hover div.overlay-between{
+	transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	width: 55%
+}
+div.container-overlay-rotateY div.overlay-between div.overlay-between-margin {
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+}
+div.container-overlay-rotateY div.overlay-between div.overlay-between-margin h5 {
+	font-size: 16px;
+
+}
+div.container-overlay-rotateY div.overlay-between div.overlay-between-margin h5:hover {
+	color: #7aaa00;
+	display: block;
+
+}
+div.container-overlay-rotateY div.overlay-between div.overlay-between-margin p {
+	/*white-space: initial;*/
+	color: #9b9b9b;
+	/*giữ nguyên thuộc tính ban đầu của nó*/
+}
+div.container-overlay-rotateY div.overlay-between div.overlay-between-margin button{
+	background: red;
+	padding: 5px 10px 5px 10px;
+	margin-top: 30px;
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+	border-color: red;
+	cursor: pointer;
+
+}
+div.container-overlay-rotateY div.overlay-between div.overlay-between-margin button:hover {
+	background: black;
+	border-color: black;
+}
+
+
+
+#main #content #tour-famous #tour-famous-margin {
+	margin:0px auto;
+	margin-left:100px;
+}
+
+#main #content #tour-famous #tour-famous-margin ul li {
+	float: left;
+	
+}
+
+#main #tour-famous #tour-famous-margin ul li a {
+	float: left;
+	padding: 15px;
+	display: block;
+}
+div.container-rotate {
+	position: relative;
+}
+div.container-rotate img.image-tour-favorite {
+	display:block;
+	height: auto;
+	width: 100%;
+/*	transform: rotate3d(0,1,0,0deg);
+	-webkit-transform: rotate3d(0,1,0,0deg);*/
+/*	transition: .5s ease-in-out;
+	-webkit-transition: .5s ease-in-out;*/
+	transform: rotateY(0deg);
+	transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+
+
+}
+div.container-rotate:hover img.image-tour-favorite{
+/*	transform: rotate3d(0,1,0,180deg);
+	-webkit-transform: rotate3d(0,1,0,180deg);*/
+	transform: rotateY(180deg);
+}
+div.rotate-overlay {
+	position: absolute;
+	/*background: url(../images/tour_sale_soc.PNG) no-repeat;*/
+	opacity: 0.4;
+	background: #000;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	height: 0;
+	width: 0;
+	transition-delay: .4s;
+}
+div.container-rotate:hover div.rotate-overlay {
+	height: 100%;
+	width: 100%;
+}
+div.text-behind {
+	position: absolute;
+	white-space: nowrap; 
+	left: 50%;
+	right: 50%;
+	font-size: 16px;
+	color:#ccc;
+	transform: translate(-49px,100px);
+	-ms-transform: translate(-49px,100px);
+
+}
+#main #tieu-chi{
+	clear:left;
+}
+#main #tieu-chi ul li.reason {
+	float:left;
+	display: block;
+	margin:0px auto;
+	margin-left:115px;
+	margin-top: 170px;
+	transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+	-o-transition: 1s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+}
+#main #tieu-chi ul li div.container-oso {
+	position: relative;
+	width:47px;
+	height: 46px;
+}
+
+#main #tieu-chi ul li div.left-oso {
+	background :#000;
+	padding:5px 0px 5px 0px;
+	display: block;
+	width:47px;
+	height: 36px;
+	float:left;
+	position: relative;
+	margin-right: 10px;
+}
+#main #tieu-chi ul li div.container-oso div.overlay-oso {
+	position: absolute;
+	background: #c50000;
+	right: 0px;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	width:100%;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+#main #tieu-chi ul li div.container-oso:hover div.overlay-oso {
+	width: 0px;
+}
+#main #tieu-chi ul li div.container-oso div.left-oso span {
+	z-index: 2;
+	position: absolute;
+	font-weight: bold;
+	font-size:30px;
+	text-align: center;
+	color: white;
+	margin-left:15px;
+
+}
+#main #tieu-chi ul li div.line {
+	float:left;
+	border-right: 1px solid #ccc;
+	margin-left:-20px;
+	position: absolute;
+	height: 45px;
+	top:0px; 
+	/*top so với lề trên là 0 và left là sang trái bao nhiêu px*/
+	left: 60px;
+	z-index: 2;
+}
+
+#main #tieu-chi ul li div.ochu {
+	margin-left: 64px;
+	width: 270px;
+	margin-top:-44px;
+
+
+}
+
+#main #tieu-chi ul li div.ochu  div.ochu1 {
+	color: red;
+	font-size: 15px;
+	margin-bottom: 7px;
+}
+
+#main #feed-back {
+	clear: left;
+	background: url(../images/feed_back.PNG) repeat-x;
+	height: 401px;
+}
+#main #feed-back #feed-container {
+	position: relative;
+}
+#main #feed-back #feed-container #left-angle {
+	position: absolute;
+	top:60px;
+	left:40px;
+	cursor: pointer;
+}
+#main #feed-back #feed-container #right-angle {
+	position: absolute;
+	top:60px;
+	right:40px;
+	cursor: pointer;
+}
+#main #feed-back #feed-container div.feed-content {
+	text-align: center;
+	position: absolute;
+	left:120px;
+	right: 120px;
+}
+#main #feed-back #feed-container div.feed-content p.feed-date {
+	margin-top:0px;
+}
+#main #feed-back #feed-container div.feed-content span.feed-title{
+	color: red;
+	font-size:18px;
+	display: block;
+	margin-bottom: 40px;
+}
+#main #feed-back #feed-container div.feed-content p.feed-comment {
+	font-size:15px;
+	color: #606060;
+}
+#main #feed-back img.canchinh {
+	margin:20px 200px 20px 400px;
+
+}
+#main #feed-back img.down {
+	margin-top:220px;
+}
